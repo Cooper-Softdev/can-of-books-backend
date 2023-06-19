@@ -56,7 +56,7 @@ You don't have to ever use eject. The curated feature set is suitable for small 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
 19 JUN - 2:08pm
-  - Live server running on [Render](https://can-of-books-server-ah7d.onrender.com)
+  - Live server running on Render.
   - README.MD updated, .gitignore and .JSON files added.
 
 
