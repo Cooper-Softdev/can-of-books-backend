@@ -1,8 +1,9 @@
-# Project Name
+# Can of Books
 
-Can of Books
+**Author**: 
+- [Dylan Cooper](https://github.com/Cooper-Softdev)
+- [Alex Chao](https://github.com/AlexSaeChao)
 
-**Author**: [Dylan Cooper](https://github.com/Cooper-Softdev), [Alex Chao](https://github.com/AlexSaeChao)
 **Version**: 1.0.0 
 
 ## Overview
