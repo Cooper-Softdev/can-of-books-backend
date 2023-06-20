@@ -60,7 +60,8 @@ You don't have to ever use eject. The curated feature set is suitable for small 
 19 JUN - 2:08pm
   - Live server running on Render.
   - README.MD updated, .gitignore and .JSON files added.
-
+19 JUN - 4:30pm
+  - MongoDB running and storing book objects
 
 ## Credit and Collaborations
 [Kevin Powell](https://www.youtube.com/@KevinPowell)
@@ -98,12 +99,52 @@ You don't have to ever use eject. The curated feature set is suitable for small 
 ## Time Estimates
 For each of the lab features, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
 
-Name of feature: ________________________________
+### Name of feature: Create backend with Render and MongoDB and route for book objects.
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: We forgot to estimate.
 
-Start time: _____
+Start time: 1:45pm
 
-Finish time: _____
+Finish time: 5:20pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 3hrs 35min
+
+### Name of feature: ?
+
+Estimate of time needed to complete: ?
+
+Start time: ?
+
+Finish time: ?
+
+Actual time needed to complete: ?
+
+### Name of feature: ?
+
+Estimate of time needed to complete: ?
+
+Start time: ?
+
+Finish time: ?
+
+Actual time needed to complete: ?
+
+### Name of feature: ?
+
+Estimate of time needed to complete: ?
+
+Start time: ?
+
+Finish time: ?
+
+Actual time needed to complete: ?
+
+### Name of feature: ?
+
+Estimate of time needed to complete: ?
+
+Start time: ?
+
+Finish time: ?
+
+Actual time needed to complete: ?
