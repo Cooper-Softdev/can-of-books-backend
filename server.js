@@ -29,6 +29,7 @@ db.once('open', function () {
 app.get('/books', getBooks);
 
 async function getBooks(request, response, next){
+  console.log('The request query', request.query)
   try {
     let allBooks = await Book.find({});
     response.status(200).send(allBooks);
