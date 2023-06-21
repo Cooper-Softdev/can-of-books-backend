@@ -62,6 +62,8 @@ You don't have to ever use eject. The curated feature set is suitable for small 
   - README.MD updated, .gitignore and .JSON files added.
 19 JUN - 4:30pm
   - MongoDB running and storing book objects
+20 JUN - 7:30pm
+  - Implemented book add and delete to MongoDB.
 
 ## Credit and Collaborations
 [Kevin Powell](https://www.youtube.com/@KevinPowell)
@@ -109,15 +111,15 @@ Finish time: 5:20pm
 
 Actual time needed to complete: 3hrs 35min
 
-### Name of feature: ?
+### Name of feature: Implement add and delete functionality to server
 
-Estimate of time needed to complete: ?
+Estimate of time needed to complete: 4 hours
 
-Start time: ?
+Start time: 3:00pm
 
-Finish time: ?
+Finish time: 8:15pm
 
-Actual time needed to complete: ?
+Actual time needed to complete: 5 hours 15 minutes for frontend and backend
 
 ### Name of feature: ?
 
