@@ -14,9 +14,9 @@ const PORT = process.env.PORT || 3002;
 
 app.get('/test', (request, response) => {
 
-  response.send('test request received')
+  response.send('test request received');
 
-})
+});
 
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
 mongoose.connect(process.env.DB_URL);
@@ -30,7 +30,7 @@ db.once('open', function () {
 app.get('/books', getBooks);
 
 async function getBooks(request, response, next) {
-  console.log('The request query', request.query)
+  console.log('The request query', request.query);
   try {
     let allBooks = await Book.find({});
     response.status(200).send(allBooks);
@@ -73,6 +73,27 @@ async function deleteBook(request, response, next) {
   }
 }
 
+app.put('/books/:bookID', updateBook);
+
+async function updateBook(request, response, next) {
+  console.log(request.params);
+  try {
+    let id = request.params.bookID;
+    let book = await Book.findById(id);
+
+    if (!book) {
+      response.status(404).send('Book not found!');
+      return;
+    }
+
+    const updatedBook = request.body;
+    let updatedBookFromDB = await Book.findByIdAndUpdate(id, updatedBook, { new: true });
+
+    response.status(200).send(updatedBookFromDB);
+  } catch (error) {
+    next(error);
+  }
+}
 
 app.get('*', (request, response) => {
   response.status(404).send('Not available');
@@ -82,5 +103,3 @@ app.use((error, request, response, next) => {
   console.log(error.message);
   response.status(500).send(error.message);
 });
-
-
