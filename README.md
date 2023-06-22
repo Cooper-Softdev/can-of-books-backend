@@ -64,6 +64,8 @@ You don't have to ever use eject. The curated feature set is suitable for small 
   - MongoDB running and storing book objects
 20 JUN - 7:30pm
   - Implemented book add and delete to MongoDB.
+21 JUN - 7:30pm
+  - Added functionality for receiving PUT request and updating the database then returning the new values.
 
 ## Credit and Collaborations
 [Kevin Powell](https://www.youtube.com/@KevinPowell)
@@ -121,15 +123,15 @@ Finish time: 8:15pm
 
 Actual time needed to complete: 5 hours 15 minutes for frontend and backend
 
-### Name of feature: ?
+### Name of feature: PUT request handling
 
-Estimate of time needed to complete: ?
+Estimate of time needed to complete: 2 hours
 
-Start time: ?
+Start time: noon-ish
 
-Finish time: ?
+Finish time: 1:45 or so
 
-Actual time needed to complete: ?
+Actual time needed to complete: hour and a half maybe.
 
 ### Name of feature: ?
 
